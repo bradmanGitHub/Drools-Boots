@@ -1,0 +1,10 @@
+<service>
+    <id>hanaga</id>
+    <name>hanaga</name>
+    <description>This runs hanaga as a windowos service.</description>
+    <env name="MYAPP_HOME" value="%BASE%"/>
+    <executable>java</executable>
+   <!-- <arguments>-Xmx512m -Dlog4j.configuration=file:conf/log4j.properties -jar "%BASE%\subscriber.jar"</arguments> -->
+   <arguments>-Xmx512m -jar "%BASE%\hanaga.jar"</arguments>
+    <logmode>rotate</logmode>
+</service>

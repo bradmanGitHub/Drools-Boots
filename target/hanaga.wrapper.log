@@ -1,0 +1,15 @@
+2018-09-20 16:16:58,929 DEBUG - Starting ServiceWrapper in the CLI mode
+2018-09-20 16:17:00,786 INFO  - Installing the service with id 'hanaga'
+2018-09-20 16:17:01,256 DEBUG - Completed. Exit code is 0
+2018-09-20 16:17:24,149 INFO  - Starting ServiceWrapper in the service mode
+2018-09-20 16:17:24,601 INFO  - Starting java -Xmx512m -jar "D:\daily\20sep18\mvc\gs-serving-web-content\initial\target\hanaga.jar"
+2018-09-20 16:17:24,617 INFO  - Starting java -Xmx512m -jar "D:\daily\20sep18\mvc\gs-serving-web-content\initial\target\hanaga.jar"
+2018-09-20 16:17:24,788 INFO  - Started process 9236
+2018-09-20 16:17:24,867 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2018-09-20 16:18:05,053 INFO  - Stopping hanaga
+2018-09-20 16:18:05,053 DEBUG - ProcessKill 9236
+2018-09-20 16:18:05,814 INFO  - Stopping process 9236
+2018-09-20 16:18:05,832 INFO  - Send SIGINT 9236
+2018-09-20 16:18:06,241 INFO  - SIGINT to9236 successful
+2018-09-20 16:18:06,241 INFO  - Finished hanaga
+2018-09-20 16:18:06,241 DEBUG - Completed. Exit code is 0
